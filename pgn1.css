@@ -1,0 +1,91 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+
+  
+}
+
+#videoFundo {
+ position: fixed;
+ right: 0;
+ bottom: 0;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ z-index: -10; 
+ 
+}
+.inicio {
+   width: 50%;
+}
+
+.imgs {
+   width:10%;
+   margin-left: 25%;
+}
+
+.par {
+   text-indent: 1%;
+   text-justify: auto;
+}
+
+main {
+   width: 80%;
+   height: auto;
+   padding: auto;
+   background-color: rgba(255, 255, 255, 0.7); 
+   position: relative;
+   z-index: 3;
+   color: black;
+   text-align:justify;
+   overflow: hidden;
+   border-radius:25px;
+   margin-left: 10%;
+   margin-top:10%;
+   margin-bottom: 10%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   text-indent: 5px;
+}
+
+h1{
+  width: 150px;
+  height: auto;
+  color:aliceblue;
+  border-radius: 6px;
+
+  background-color: black;
+}
+.pa{
+  width: 100%;
+  height: auto;
+  display:flex ;
+}
+img{
+  border-radius: 10px;
+}
+#iabk{
+  width: 40%;
+  height: auto;
+  margin-left: 25%;
+}
+#bacon{
+  width: 40%;
+  height: auto;
+  margin-left: 25%;
+}
+#mcbk{
+  width: 40%;
+  height: auto;
+  margin-left: 25%;
+}
+#idli{
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+#idli:hover{
+  color:blue;
+}

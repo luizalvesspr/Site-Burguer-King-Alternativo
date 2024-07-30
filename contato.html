@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina De Contato</title>
+</head>
+<body>
+    <style>
+    body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        background-image: url("fundo.jpeg");
+        
+
+        }
+     main{
+        width: 80%;
+        height:auto;
+        
+
+        justify-content: space-around;
+        padding:150px;
+        
+        display: flex;
+        
+     }
+    #locimg{
+
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        height: 100%;
+       
+        
+     }
+    .div1{
+        width: 49%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(to right, rgba(185, 2, 2, 0.63), rgba(228, 142, 13, 0.678),rgba(18, 18, 219, 0.562));
+        border-radius: 15px;
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        
+    }
+    .div2{
+        width: 49%;
+        height: auto;
+        
+
+     }
+
+
+
+    </style>
+    <main>
+    <div class="div1">
+    <form>
+        
+        <label for="nome"><h3>Nome:</h3></label><br>
+        <input type="text" id="nome" name="nome" rows="100" cols="30"   required><br>
+
+        <label for="email"><h3>Email:</h3></label><br>
+        <input type="email" id="email" name="email"rows="50" cols="70"  required><br>
+
+        <label for="senha"><h3>Senha:<h3></label><br>
+        <input type="password" id="senha" name="senha" rows="50" cols="70"  required><br>
+        <label for="message"><h3>Message:<h3></label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="Enviar">
+         </form>
+        </div>
+        <div class="div2">
+    <a href="https://www.google.com.br/maps/search/localiza%C3%A7%C3%A3o+da+sede+do+burger+king/@-29.6463381,-51.1772797,11z/data=!3m1!4b1?hl=pt-BR&entry=ttu" >
+        <img src="loc.png" alt="Descrição da Imagem" id="locimg">
+    </a>
+        </div2>
+    
+    
+    </main>
+
+    
+
+</body>
+</html>

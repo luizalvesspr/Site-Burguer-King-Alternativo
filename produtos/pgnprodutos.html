@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Produtos</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url("fundo.jpeg");
+        }
+        main{
+            width: 100%;
+            height: 100%;
+          
+        }
+        .divmg{
+            width:100%;
+            height:100%;
+            display: flex; 
+            justify-content:space-around;
+            align-items:center;
+            
+        }
+        .whopper {
+            width: 30%;
+            height: auto;
+            position: relative;
+            text-align: center;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            background-color: rgba(255, 153, 0, 0.925);
+            overflow: hidden;
+            display: inline-block;
+            transition: opacity 0.3s ease, background-color 0.3s ease;
+        }
+
+        .whopper:hover {
+            opacity: 1;
+            background-color: rgba(255, 255, 255, 0.932); 
+    }
+
+        .text1hover {
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            opacity: 0;
+            color:black
+    }
+
+        .whopper:hover .text1hover {
+            opacity: 1;
+}
+
+
+        .bcn{
+            width:30%;
+            height: auto;
+            position: relative;
+            background-color: rgba(0, 38, 252, 0.945);
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            transition: opacity 0.3s ease, background-color 0.3s ease;
+        }
+
+        .bcn:hover .text1hover {
+            opacity: 1;
+        }
+
+        .bcn:hover  {
+            opacity: 1; 
+            background-color: rgba(255, 255, 255, 0.932);  
+        }
+
+
+        .rodeio{
+            width:30%;
+            height: auto;
+            position: relative;
+            background-color: rgba(233, 47, 41, 0.938);
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            transition: opacity 0.3s ease, background-color 0.3s ease;
+        }
+
+        .rodeio:hover .text1hover {
+            opacity: 1;
+        }
+
+        .rodeio:hover  {
+            opacity: 1; 
+            background-color: rgba(255, 255, 255, 0.932);  
+        }
+
+
+        .mg2div{
+            width: 100%;
+            height:100%;
+            display:flex;
+            justify-content:space-around;
+            align-items: center;
+            margin-top: 1%;
+        }
+        
+
+        .wduplo{
+            width: 30%;
+            height: auto;
+            position: relative;
+            text-align: center;
+            background-color: rgba(255, 0, 0, 0.938);
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            transition: opacity 0.3s ease, background-color 0,3s ease;
+        }
+        .wduplo:hover .text1hover {
+            opacity: 1;
+        }
+        .wduplo:hover  {
+            opacity: 1; 
+            background-color: rgba(255, 255, 255, 0.932); 
+        }
+
+        
+        .mgch{
+            width: 30%;
+            height: auto;
+            position: relative;
+            text-align: center;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            background-color: rgba(255, 136, 0, 0.945);
+            transition: opacity 0.3s ease, background-color 0.3s ease;
+        }
+
+        .mgch:hover .text1hover {
+            opacity: 1;
+        }
+
+        .mgch:hover  {
+            opacity: 1; 
+            background-color: rgba(255, 255, 255, 0.932);  
+        }
+
+         .wfu{
+            width: 30%;
+            height: auto;
+            position: relative;
+            text-align: center;
+            background-color: rgba(0, 4, 255, 0.945);
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            transition: opacity 0.3s ease, background-color 0.3s ease;
+        }
+
+        .wfu:hover .text1hover {
+            opacity: 1;
+        }
+
+        .wfu:hover  {
+            opacity: 1; 
+            background-color: rgba(255, 255, 255, 0.932);  
+        }
+
+      
+
+    </style> 
+    <main>
+        <div class="divmg">
+            <div class="whopper">
+                <img src="Whopper-Round-6.png" id="id1">
+                <span class="text1hover">
+                     <h1>R$50,00</h1>
+                </span>
+                <p>Whopper Round 6</p>
+            </div>
+            <div class="bcn">
+                <img src="Bacon_Lover_carne_NOVO.png" id="id1">
+                <span class="text1hover">
+                    <H1>R$35,99</H1>
+                    </span>
+                    <p>Bacon Lover carne</p>
+            </div>
+            <div class="rodeio">
+              <img src="Whopper-Rodeio.png" id1="id1">
+                <span class="text1hover">
+                 <H1>R$40,50</H1>
+                </span>
+                <p>Whopper Rodeio<p>
+            </div>
+        </div>
+        <div class="mg2div">
+            <div class="wduplo">
+                <img src="whopper-duplo-thumb (1).png">
+                <span class="text1hover">
+                    <H1>R$43,66</H1>
+                </span>
+                <p>Whopper duplo</p>
+         </div>
+            <div class="mgch">
+                <img src="maga-stacker-cheddar-2-thumb.PNG" >
+                <span class="text1hover">
+                    <H1>R$34,35</H1>
+
+                </span>
+                <p>Stacker Cheddar</p>
+            </div>
+            <div class="wfu">
+               <img src="maga-stacker-atomico-2-thumb.PNG" id="idmgch">
+               <span class="text1hover">
+                <H1>R$64,35</H1>
+
+            </span>
+               <p>Whopper Furioso<p>  
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>

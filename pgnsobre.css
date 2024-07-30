@@ -1,0 +1,51 @@
+body{
+    background-image: url("fundo.jpeg");
+    
+    background-repeat:repeat;
+    overflow:auto
+}
+
+
+.bkold{
+    width: 50%;
+    height: auto;
+    background-color: rgba(255, 136, 0, 0.9);
+    padding:5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    display:flex;
+    text-align: justify;
+    text-indent: 2em;
+    border-radius: 10px;
+    
+    
+}
+.bkatu{
+    width: 50%;
+    height: auto;
+    background-color: rgba(255, 136, 0, 0.9);
+    padding:5%;
+    margin-top:3px;
+    margin-left:5%;
+    display:flex;
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+    text-indent: 2em;
+    border-radius: 10px;
+   
+    
+    
+}
+#imgatu{
+    width:110%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+#imgold{
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
